@@ -29,8 +29,8 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
                 p={2}
                 bg={active ? 'grassTeal' : undefined}
                 color={active ? '#202023' : inactiveColor}
-            // target={target}
-            // {...props}
+                // target={target}
+                {...props}
             >
                 {children}
             </Link>
@@ -80,18 +80,6 @@ const Navbar = props => {
                     <LinkItem href="/resume" path={path}>
                         Resume
                     </LinkItem>
-                    {/* <LinkItem
-            target="_blank"
-            href="https://github.com/sunnymnie"
-            path={path}
-            display="inline-flex"
-            alignItems="center"
-            style={{ gap: 4 }}
-            pl={2}
-          >
-            <IoLogoGithub />
-            Source
-          </LinkItem> */}
                 </Stack>
 
                 <Box flex={1} align="right">
@@ -115,12 +103,6 @@ const Navbar = props => {
                                 <NextLink href="/resume" passHref>
                                     <MenuItem as={Link}>Resume</MenuItem>
                                 </NextLink>
-                                {/* <MenuItem
-                  as={Link}
-                  href="https://github.com/craftzdog/craftzdog-homepage"
-                >
-                  View Source
-                </MenuItem> */}
                             </MenuList>
                         </Menu>
                     </Box>
