@@ -16,7 +16,7 @@ import {
     useColorModeValue
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
-// import ThemeToggleButton from './theme-toggle-button'
+import ThemeToggleButton from '@components/theme-toggle-button'
 // import { IoLogoGithub } from 'reac t-icons/io5'
 
 
@@ -95,7 +95,7 @@ const Navbar = props => {
                 </Stack>
 
                 <Box flex={1} align="right">
-                    {/* <ThemeToggleButton /> */}
+                    <ThemeToggleButton />
 
                     <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
                         <Menu isLazy id="navbar-menu">
