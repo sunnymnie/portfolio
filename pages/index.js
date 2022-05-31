@@ -11,6 +11,7 @@ import {
   Link,
   useColorModeValue
 } from '@chakra-ui/react'
+import Intro from '@components/intro'
 import Section from '@components/section'
 import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 import { ChevronRightIcon } from '@chakra-ui/icons'
@@ -18,23 +19,15 @@ import { ChevronRightIcon } from '@chakra-ui/icons'
 const Home = () => {
   return (
     <Container>
-      <Box
-        borderRadius="lg"
-        bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
-        mb={6}
-        p={3}
-        textAlign="center"
-      // bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
-      // css={{ backdropFilter: 'blur(10px)' }}
-      >
+      <Intro>
         Hello, I am an aspiring full stack developer from Coquitlam BC, Canada.
-      </Box>
+      </Intro>
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
             Sunny Nie
           </Heading>
-          <p>Always a student ( Developer / Data Analyst / Investor )</p>
+          <p>Always a student, always learning</p>
         </Box>
         <Box
           flexShrink={0}
@@ -74,7 +67,7 @@ const Home = () => {
         </NextLink>
       </Box>
       <Section heading="Interests">
-        <div>cozy coding, .io games, ML is cool, eth is cool</div>
+        <div>front-end development, data-science, investing, .io games, eth</div>
       </Section>
       <Section heading="Add me">
         <List>

@@ -2,22 +2,17 @@
 import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Layout from '@components/layouts/article'
 import Section from '@components/section'
+import Intro from '@components/intro'
 import { WorkGridItem } from '@components/grid-item'
 
 const test = "test.png"
-// import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
-// import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
-// import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
-// import thumbMargelo from '../public/images/works/margelo_eyecatch.png'
-// import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
-// import thumbStyly from '../public/images/works/styly_eyecatch.png'
-// import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
-// import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
-// import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
 
 const Works = () => (
     <Layout title="Works">
         <Container>
+            <Intro>
+                Here lies some of the work I have done. Take a gander, try them out - or don't - I have pictures attached
+            </Intro>
             <Heading as="h3" fontSize={20} mb={4}>
                 Highlighted Works
             </Heading>

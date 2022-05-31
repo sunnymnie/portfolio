@@ -1,5 +1,5 @@
 
-// import Logo from './logo'
+import Logo from '@components/logo'
 import NextLink from 'next/link'
 import {
     Container,
@@ -61,8 +61,7 @@ const Navbar = props => {
             >
                 <Flex align="center" mr={5}>
                     <Heading as="h1" size="lg" letterSpacing={'tighter'}>
-                        {/* <Logo /> */}
-                        Sunny Nie LOGO
+                        <Logo />
                     </Heading>
                 </Flex>
 
