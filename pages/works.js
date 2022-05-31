@@ -32,7 +32,7 @@ const Works = () => (
                         title="Portfolio Website"
                         thumbnail={test}
                     >
-                        This portfolio website. Made with React.js and Next.js.
+                        This portfolio website. Made with React.js, Next.js, and Chakra.
                     </WorkGridItem>
                 </Section>
 
@@ -40,15 +40,15 @@ const Works = () => (
                     <WorkGridItem
                         id="btprinter"
                         title="Binance Top Printer"
-                        thumbnail={test}
+                        thumbnail="btprinter-thumb.png"
                     >
-                        My latest trading strategy, leveraging the multitudes of pairs on Binance and picking tops to short.
+                        My latest trading strategy, leveraging the multitudes of Binance trading pairs and picking tops to short.
                     </WorkGridItem>
                 </Section>
                 <Section>
                     <WorkGridItem
-                        id="crypto-seed-phrase-storage"
-                        thumbnail={test}
+                        id="seed-phrase-vault"
+                        thumbnail="spv-thumb.png"
                         title="Seed Phrase Vault">
                         A Java application to store seed-phrases/passwords, front-end built using Java Swing.
                     </WorkGridItem>
