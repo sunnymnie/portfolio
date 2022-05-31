@@ -1,7 +1,19 @@
 import Head from 'next/head'
+import NextLink from 'next/link'
 import Image from 'next/image'
-import { Container, Box, Heading, useColorModeValue } from '@chakra-ui/react'
+import {
+  Container,
+  Box,
+  Heading,
+  Button,
+  List,
+  ListItem,
+  Link,
+  useColorModeValue
+} from '@chakra-ui/react'
 import Section from '@components/section'
+import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
+import { ChevronRightIcon } from '@chakra-ui/icons'
 
 const Home = () => {
   return (
@@ -52,7 +64,41 @@ const Home = () => {
       </Box>
 
       <Section heading="About">
-        <div>Sunny Nie is a person</div>
+        <div>Sunny Nie is a person. 2nd year Computer Science student at UBC.</div>
+      </Section>
+      <Box align="center" my={4}>
+        <NextLink href="/works" passHref scroll={false}>
+          <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+            My portfolio
+          </Button>
+        </NextLink>
+      </Box>
+      <Section heading="Interests">
+        <div>cozy coding, .io games, ML is cool, eth is cool</div>
+      </Section>
+      <Section heading="Add me">
+        <List>
+          <ListItem>
+            <Link href="https://github.com/sunnymnie" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoGithub />}
+              >
+                @sunnymnie
+              </Button>
+            </Link>
+            <Link href="https://www.linkedin.com/in/sunny-nie/" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoLinkedin />}
+              >
+                Sunny Nie
+              </Button>
+            </Link>
+          </ListItem>
+        </List>
       </Section>
     </Container >
   )
