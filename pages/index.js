@@ -60,7 +60,7 @@ const Home = () => {
         <div>I'm a second year CS student at UBC. I don't have a set industry I'm gunning for so I am eager to try
           things out.
           I have built many trading algorithms in Python, using Pandas, NumPy, Matplotlib, and Scikit-learn to do
-          data analysis. Recently I have built some React web applications and have dabbled a bit in Solidity and
+          data analysis. Recently I have built some React and Next.js web applications and have dabbled a bit in Solidity and
           machine learning.
         </div>
       </Section>

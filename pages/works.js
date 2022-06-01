@@ -5,8 +5,6 @@ import Section from '@components/section'
 import Intro from '@components/intro'
 import { WorkGridItem } from '@components/grid-item'
 
-const test = "test.png"
-
 const Works = () => (
     <Layout title="Works">
         <Container>
@@ -22,8 +20,8 @@ const Works = () => (
                     <WorkGridItem
                         id="bookstore-eth"
                         title="Bookstore-Eth"
-                        thumbnail="test2.png">
-                        A prototype book-summary marketplace deployed on the Ropsten testnet. Made with React.js and Next.js.
+                        thumbnail="placeholder.png">
+                        A prototype book-summary marketplace deployed on the Ropsten testnet. Made with React.js, Next.js, and TailwindCSS.
                     </WorkGridItem>
                 </Section>
 
