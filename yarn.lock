@@ -1783,10 +1783,10 @@
   dependencies:
     "tslib" "^2.0.3"
 
-"framer-motion@>=4.0.0":
-  "integrity" "sha512-yr4VCmoORAusjZi2n91C9LaymXv1ok7ZucCJ8wma7UwyktI8/SMBDBOV0ypISFWcdadgGOfCWDIe0ELk+/1jpQ=="
-  "resolved" "https://registry.npmjs.org/framer-motion/-/framer-motion-6.3.5.tgz"
-  "version" "6.3.5"
+"framer-motion@^6.3.6", "framer-motion@>=4.0.0":
+  "integrity" "sha512-gaCmjkg8J72EBiSQAxjY0elzxVQL3GMPA4jQGIvrMa+kiVDyLG0WXQTwAQnJpsylIa/ySDz3djQt2YyD8AKZ7Q=="
+  "resolved" "https://registry.npmjs.org/framer-motion/-/framer-motion-6.3.6.tgz"
+  "version" "6.3.6"
   dependencies:
     "framesync" "6.0.1"
     "hey-listen" "^1.0.8"
