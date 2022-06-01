@@ -11,7 +11,7 @@ const Works = () => (
     <Layout title="Works">
         <Container>
             <Intro>
-                Here lies some of the work I have done. Take a gander, try them out - or don't - I have pictures attached
+                Here lies some of the work I have done. Take a gander, try them out - or not - I have pictures attached for your viewing pleasure
             </Intro>
             <Heading as="h3" fontSize={20} mb={4}>
                 Highlighted Works
@@ -26,15 +26,6 @@ const Works = () => (
                         A prototype book-summary marketplace deployed on the Ropsten testnet. Made with React.js and Next.js.
                     </WorkGridItem>
                 </Section>
-                <Section>
-                    <WorkGridItem
-                        id="portfolio"
-                        title="Portfolio Website"
-                        thumbnail={test}
-                    >
-                        This portfolio website. Made with React.js, Next.js, and Chakra.
-                    </WorkGridItem>
-                </Section>
 
                 <Section>
                     <WorkGridItem
@@ -47,6 +38,14 @@ const Works = () => (
                 </Section>
                 <Section>
                     <WorkGridItem
+                        id="ganache-faucet"
+                        thumbnail="faucet-thumb.png"
+                        title="Ganache Faucet">
+                        A fun project made using Solidity and React.js, allowing the user to donate and retreive test eth on Ganache
+                    </WorkGridItem>
+                </Section>
+                <Section>
+                    <WorkGridItem
                         id="seed-phrase-vault"
                         thumbnail="spv-thumb.png"
                         title="Seed Phrase Vault">
@@ -54,6 +53,7 @@ const Works = () => (
                     </WorkGridItem>
                 </Section>
             </SimpleGrid>
+
 
             <Section>
                 <Divider my={6} />
@@ -67,7 +67,7 @@ const Works = () => (
                 <Section>
                     <WorkGridItem
                         id="ytprinter"
-                        thumbnail={test}
+                        thumbnail="ytprinter-thumb.png"
                         title="Youtube Printer">
                         High-leverage futures trading based on video publishing data
                     </WorkGridItem>
@@ -75,18 +75,10 @@ const Works = () => (
                 <Section>
                     <WorkGridItem
                         id="crypto-printer"
-                        thumbnail={test}
+                        thumbnail="crypto-thumb.png"
                         title="Crypto Printer"
                     >
                         Exploratory project playing with the frontier of algorithmic trading and ML
-                    </WorkGridItem>
-                </Section>
-                <Section>
-                    <WorkGridItem
-                        id="ganache-faucet"
-                        thumbnail={test}
-                        title="Ganache Faucet">
-                        A fun starter-project made using Solidity and React
                     </WorkGridItem>
                 </Section>
             </SimpleGrid>
