@@ -54,11 +54,11 @@ const Work = () => (
                 The performance
             </Header>
             <Paragraph>
-                The trading algorithm certainly works, but there's quite a few obstacles and flaws if you are
+                The trading algorithm works for now, but there are quite a few obstacles and flaws if you are
                 considering building something similar.
-                First of all, Binance sometimes doesn't have enough capital for you to borrow to go short. Sometimes
+                First of all, Binance sometimes does not have enough capital for you to borrow to go short. Sometimes
                 the max you can borrow for a specific asset is limited to the hundred of dollars.
-                Secondly, there's a big tail-risk associated with this strategy. When you are shorting something,
+                Secondly, there is a big tail-risk associated with this strategy. When you are shorting something,
                 you can get liquidated. And this strategy requires setting large stop-losses, so when margin-calls
                 do come in, they hurt like a truck.
                 And thirdly, a stress and tax headache. By now, btprinter has made thousands of trades, and sometimes
@@ -73,7 +73,7 @@ const Work = () => (
                 The design of btprinter is pretty straightforward. In one repository I did all of the data analysis
                 using Pandas, NumPy, Matplotlib, etc, on Jupyterlab. Another repository holds the actual trading
                 algorithm. The program runs at intervals, and simply checks (1) if it needs to close any existing trade,
-                (2) if there's any pair on Binance that matches the criteria to be shorted, and if so go short, and (3)
+                (2) if there is any pair on Binance that matches the criteria to be shorted, and if so go short, and (3)
                 regular cleanup work such as disabling isolated margin accounts, etc.
             </Paragraph>
 

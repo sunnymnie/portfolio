@@ -17,7 +17,7 @@ const Work = () => (
                 Crypto Printer + Bitcoin Printer <Badge>2020-2021</Badge>
             </Title>
             <Paragraph>
-                Two separate projects done a long time ago, so merging them together, but they're highly different.
+                Two separate projects done a long time ago, so merging them together, but they are highly different.
                 Bitcoin Printer started off first, and tried to implement Advances in Financial Machine Learning
                 by Marcos López de Prado. Lots of trials and tribulations but still ended up empty handed -- the
                 material is just a tad too advanced. Crypto printer is a separate project, where upon finding
@@ -63,10 +63,9 @@ const Work = () => (
                 Crypto Printer
             </Header>
             <Paragraph>
-                The strategy for this project is as quoted:
-                "The strategy this model uses is based on two cointegrating price-series and buying
+                The strategy for this project is based on two cointegrating price-series and buying
                 when the z-score is sufficiently deviated from the mean.
-                Profit is taken when cointegrating series mean-reverts." It worked until things stopped
+                Profit is taken when cointegrating series mean-reverts. This strategy worked until things stopped
                 mean-reverting. Below is an example of the trades this program would perform
             </Paragraph>
             <WorkImage src="crypto-1.png" alt="crypto printer trades" />

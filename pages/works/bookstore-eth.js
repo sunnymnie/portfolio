@@ -19,7 +19,7 @@ const Work = () => (
             <Paragraph>
                 This is an ongoing project built with React and Next.js, using TailwindCSS as the CSS component.
                 The true prupose of this project is to motivate me to read more, as well as developing my
-                skills in React and Next.js. In this application, users can 'buy' some book summaries I have
+                skills in React and Next.js. In this application, users can buy some book summaries I have
                 written for test ether.
             </Paragraph>
             <List my={4}>

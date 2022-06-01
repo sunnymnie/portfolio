@@ -17,7 +17,7 @@ const Work = () => (
                 Youtube Printer <Badge>2021</Badge>
             </Title>
             <Paragraph>
-                The rundown of this trading strategy is simple: see a Youtube video pop, sell what you're holding
+                The rundown of this trading strategy is simple: see a Youtube video pop, sell what you&apos;re holding
                 now, buy the futures of the asset the Youtube video covers. I used some thread pools and was able
                 to get from Youtube video detection to longing 20x with futures in around 3 seconds, which was plenty
                 enough.

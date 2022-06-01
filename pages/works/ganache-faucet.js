@@ -47,12 +47,12 @@ const Work = () => (
             </Paragraph>
             <WorkImage src="faucet-donate.png" alt="donating 1 eth to the faucet" />
             <Paragraph>
-                Upon a successful donation, the use can withdraw 0.1 eth at a time. Here's what happens if
+                Upon a successful donation, the use can withdraw 0.1 eth at a time. Here is what happens if
                 the user has donated before and tries to withdraw 0.1 eth
             </Paragraph>
             <WorkImage src="faucet-withdrawal.png" alt="withdrawing 0.1 eth from faucet" />
             <Paragraph>
-                And that's all. Not much more functionality other than an elegant starter project.
+                And that is all. Not much more functionality other than an elegant starter project.
             </Paragraph>
         </Container>
     </Layout>
