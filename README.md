@@ -1,9 +1,7 @@
-# My Portfolio
+# Sunny Nie's Portfolio
 
+portfolio-sunnymnie.vercel.app/
 
-Notes:
-- go back to _docment.js
-- change up animation for theme changer
-
-Installs
-- react-icons
+## Stack
+- React and Next.js
+- Chakra UI and framer-motion
