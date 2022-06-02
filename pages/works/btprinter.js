@@ -53,7 +53,7 @@ const Work = () => (
                 The performance
             </Header>
             <Paragraph>
-                The trading algorithm has been a reliable workhorse, but it has suffered it's fair share of failues.
+                The trading algorithm has been a reliable workhorse, but it has suffered it&apos;s fair share of failues.
                 There have also been quite a few obstacles that I have encountered.
                 First, Binance sometimes does not have enough capital for you to borrow to go short.
                 Sometimes the maximum you can borrow for a specific asset is limited to hundreds of dollars.
