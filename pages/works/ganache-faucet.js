@@ -17,9 +17,8 @@ const Work = () => (
                 Ganache Faucet <Badge>2022</Badge>
             </Title>
             <Paragraph>
-                This was a fun project made with React with the faucet smart-contract coded in Solidity.
-                The only purpose was to learn React as this was my first experience using this framework,
-                as well as getting my first experience deploying a smart-contract onto Ganache.
+                This was a fun project made with React and Bulma, with the faucet smart contract coded in Solidity.
+                The only purpose was to learn React and get my first experience deploying a smart contract onto Ganache.
             </Paragraph>
             <List my={4}>
                 <ListItem>
@@ -47,7 +46,7 @@ const Work = () => (
             </Paragraph>
             <WorkImage src="faucet-donate.png" alt="donating 1 eth to the faucet" />
             <Paragraph>
-                Upon a successful donation, the use can withdraw 0.1 eth at a time. Here is what happens if
+                Upon a successful donation, the user can withdraw 0.1 eth at a time. Here is what happens if
                 the user has donated before and tries to withdraw 0.1 eth
             </Paragraph>
             <WorkImage src="faucet-withdrawal.png" alt="withdrawing 0.1 eth from faucet" />

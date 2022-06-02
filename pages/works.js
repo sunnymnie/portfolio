@@ -9,7 +9,7 @@ const Works = () => (
     <Layout title="Works">
         <Container>
             <Intro>
-                Here lies some of the work I have done. Take a gander, try them out - or not - I have pictures attached for your viewing pleasure
+                Here lies some of the work I have done. Take a gander and try them out - I have included pictures for your viewing pleasure
             </Intro>
             <Heading as="h3" fontSize={20} mb={4}>
                 Highlighted Works
@@ -21,7 +21,7 @@ const Works = () => (
                         id="bookstore-eth"
                         title="Bookstore-Eth"
                         thumbnail="placeholder.png">
-                        A prototype book-summary marketplace deployed on the Ropsten testnet. Made with React.js, Next.js, and TailwindCSS.
+                        A prototype book-summary marketplace deployed on the Ropsten testnet. Made with React.js, Next.js, and TailwindCSS
                     </WorkGridItem>
                 </Section>
 
@@ -31,7 +31,7 @@ const Works = () => (
                         title="Binance Top Printer"
                         thumbnail="btprinter-thumb.png"
                     >
-                        My latest trading strategy, leveraging the multitudes of Binance trading pairs and picking tops to short.
+                        My latest trading strategy - leveraging the multitudes of Binance trading pairs to pick the tops to short
                     </WorkGridItem>
                 </Section>
                 <Section>
@@ -39,7 +39,7 @@ const Works = () => (
                         id="ganache-faucet"
                         thumbnail="faucet-thumb.png"
                         title="Ganache Faucet">
-                        A fun project made using Solidity and React.js, allowing the user to donate and retreive test eth on Ganache
+                        A fun project made using Solidity and React.js, allowing the user to donate and receive test eth on Ganache
                     </WorkGridItem>
                 </Section>
                 <Section>
@@ -47,7 +47,7 @@ const Works = () => (
                         id="seed-phrase-vault"
                         thumbnail="spv-thumb.png"
                         title="Seed Phrase Vault">
-                        A Java application to store seed-phrases/passwords, front-end built using Java Swing.
+                        A Java application to store seed phrases/passwords, front-end built using Java Swing
                     </WorkGridItem>
                 </Section>
             </SimpleGrid>
@@ -86,4 +86,3 @@ const Works = () => (
 )
 
 export default Works
-// export { getServerSideProps } from '../components/chakra'

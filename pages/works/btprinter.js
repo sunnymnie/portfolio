@@ -16,9 +16,9 @@ const Work = () => (
             </Title>
             <Paragraph>
                 Also known as btprinter. This is the latest trading algorithm that I am running.
-                In essence, the strategy requires periodically looking for the highest gainers over the past
-                time period and takes a short position. As of May 2022, it has returned 7.5x
-                since January 2022.
+                The strategy requires periodically looking for the highest gainers over a set time
+                and taking a short position when appropriate.
+                As of May 2022, this strategy has returned 7.5x since its inception.
             </Paragraph>
             <List my={4}>
                 <ListItem>
@@ -44,9 +44,8 @@ const Work = () => (
             </Paragraph>
             <Paragraph>
                 The following are the hypothetical returns of btprinter compared with the price of Bitcoin.
-                Although I try to mimic real conditions by adding an excessive 0.4% trading fee for the backtests,
-                there were many unforseen obstacles that led the real performance to be a tad worse, which I will
-                elaborate below.
+                The backtests use an excessive 0.4% trading fee to simulate actual 0.1% fees + slippage.
+                However, the tests suffer from survivorship bias, which I assume is negligible, and a tad of lookahead bias.
             </Paragraph>
             <WorkImage src="btprinter-theoretical.png" alt="btprinter backtest" />
 
@@ -54,15 +53,16 @@ const Work = () => (
                 The performance
             </Header>
             <Paragraph>
-                The trading algorithm works for now, but there are quite a few obstacles and flaws if you are
-                considering building something similar.
-                First of all, Binance sometimes does not have enough capital for you to borrow to go short. Sometimes
-                the max you can borrow for a specific asset is limited to the hundred of dollars.
-                Secondly, there is a big tail-risk associated with this strategy. When you are shorting something,
-                you can get liquidated. And this strategy requires setting large stop-losses, so when margin-calls
-                do come in, they hurt like a truck.
-                And thirdly, a stress and tax headache. By now, btprinter has made thousands of trades, and sometimes
-                I get overly anxious when it trades, fearing for a big loss. Below is a snapshot of a streak of winning trades.
+                The trading algorithm has been a reliable workhorse, but it has suffered it's fair share of failues.
+                There have also been quite a few obstacles that I have encountered.
+                First, Binance sometimes does not have enough capital for you to borrow to go short.
+                Sometimes the maximum you can borrow for a specific asset is limited to hundreds of dollars.
+                Secondly, there is a big tail risk associated with this strategy because of the
+                omnipresent liquidation risk associated with fading a pump.
+                Also, since this strategy uses large stop losses, margin calls hurt like a truck.
+                And thirdly, stress and tax headaches. By now, btprinter has made thousands of trades
+                and sometimes emotions from a substantial loss can ruin a day.
+                Below is a snapshot of a streak of winning trades.
             </Paragraph>
             <WorkImage src="btprinter-trades.png" alt="btprinter winning trades" />
 
@@ -70,11 +70,11 @@ const Work = () => (
                 The design
             </Header>
             <Paragraph>
-                The design of btprinter is pretty straightforward. In one repository I did all of the data analysis
-                using Pandas, NumPy, Matplotlib, etc, on Jupyterlab. Another repository holds the actual trading
-                algorithm. The program runs at intervals, and simply checks (1) if it needs to close any existing trade,
-                (2) if there is any pair on Binance that matches the criteria to be shorted, and if so go short, and (3)
-                regular cleanup work such as disabling isolated margin accounts, etc.
+                The design of btprinter is pretty straightforward.
+                The program first runs in intervals and checks if it needs to close any existing position.
+                It then sees if any pairs on Binance match the criteria to be traded and goes short if required.
+                Finally, it performs regular maintenance work such as disabling
+                isolated margin accounts and converting dust.
             </Paragraph>
 
 
@@ -83,4 +83,3 @@ const Work = () => (
 )
 
 export default Work
-//   export { getServerSideProps } from '../../components/chakra'

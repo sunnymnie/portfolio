@@ -17,10 +17,9 @@ const Work = () => (
                 Bookstore-Eth <Badge>2022-</Badge>
             </Title>
             <Paragraph>
-                This is an ongoing project built with React and Next.js, using TailwindCSS as the CSS component.
-                The true prupose of this project is to motivate me to read more, as well as developing my
-                skills in React and Next.js. In this application, users can buy some book summaries I have
-                written for test ether.
+                This is an ongoing project built with React, Next.js, and TailwindCSS.
+                In this app, users will be able to browse and buy book summaries using test ether.
+                The true purpose of this project is to motivate me to read more and to develop my skills in React and Next.js.
             </Paragraph>
             <List my={4}>
                 <ListItem>
@@ -44,7 +43,7 @@ const Work = () => (
             </List>
 
             <Paragraph>
-                Images and website link will be released once project is finished to a sufficient extent.
+                Images will be released once project is finished to a sufficient extent.
             </Paragraph>
         </Container>
     </Layout>

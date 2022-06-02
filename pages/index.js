@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import NextLink from 'next/link'
 import Image from 'next/image'
 import {
@@ -9,7 +8,6 @@ import {
   List,
   ListItem,
   Link,
-  useColorModeValue
 } from '@chakra-ui/react'
 import Intro from '@components/intro'
 import Section from '@components/section'
@@ -20,7 +18,7 @@ const Home = () => {
   return (
     <Container>
       <Intro>
-        Hello, I am an aspiring full stack developer from Coquitlam BC, Canada.
+        Hello, I am an aspiring full stack developer from BC, Canada.
       </Intro>
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
@@ -57,11 +55,12 @@ const Home = () => {
       </Box>
 
       <Section heading="About">
-        <div>I&apos;m a second year CS student at UBC. I don&apos;t have a set industry I&apos;m gunning for so I am eager to try
-          things out.
-          I have built many trading algorithms in Python, using Pandas, NumPy, Matplotlib, and Scikit-learn to do
-          data analysis. Recently I have built some React and Next.js web applications and have dabbled a bit in Solidity and
-          machine learning.
+        <div>
+          I&apos;m a second-year CS student at UBC interested in software engineering and data science.
+          I have built trading algorithms in Python with the help of Pandas, NumPy, Matplotlib, and Scikit-Learn
+          for data analysis and backtesting.
+          Recently I created some React and Next.js applications
+          and have dabbled a bit in Solidity and machine learning.
         </div>
       </Section>
       <Box align="center" my={4}>

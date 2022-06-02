@@ -18,9 +18,9 @@ const Work = () => (
             </Title>
             <Paragraph>
                 This project was my first real experience in building software with Java.
-                In essence, this application allows users to save their seed-phrases and add
-                security questions. For each seed-phrase, the user can select how many security questions
-                must be right before the seed-phrase can be accessed.
+                Seed-Phrase Vault allows users to save their seed-phrases and add security questions.
+                For each seed-phrase, the user can select the number of security questions that
+                must be answered correctly before the seed-phrase is accessed.
             </Paragraph>
             <List my={4}>
                 <ListItem>
@@ -40,23 +40,23 @@ const Work = () => (
             </List>
 
             <Header>
-                A slideshow demonstration
+                A demonstration
             </Header>
             <WorkImage src="spv-spm.png" alt="seed phrase vault main" />
             <Paragraph>
-                To access the seed-phrase, user must answer their security questions they set previously
+                To access the seed-phrase, the user must answer the security questions they set previously.
             </Paragraph>
             <WorkImage src="spv-ans.png" alt="seed phrase vault answering questions" />
             <Paragraph>
-                Upon answering the questions correctly, the seed phrase is unlocked and offers viewing or deletion
+                Upon answering the questions correctly, the seed phrase is unlocked and offers viewing or deletion.
             </Paragraph>
             <WorkImage src="spv-unlock.png" alt="seed phrase vault unlocked seed phrase" />
             <Paragraph>
-                Here the seed-phrases are viewed individually
+                Here the seed-phrases are viewed individually.
             </Paragraph>
             <WorkImage src="spv-individual.png" alt="seed phrase vault indivual viewing" />
             <Paragraph>
-                Upon answering all the security questions correctly, the user can also add/edit/remove security questions
+                Upon answering all the security questions correctly, the user can also add/edit/remove security questions.
             </Paragraph>
             <WorkImage src="spv-questions.png" alt="seed phrase vault questions" />
 
@@ -66,4 +66,3 @@ const Work = () => (
 )
 
 export default Work
-//   export { getServerSideProps } from '../../components/chakra'

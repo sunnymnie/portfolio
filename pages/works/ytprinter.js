@@ -17,10 +17,12 @@ const Work = () => (
                 Youtube Printer <Badge>2021</Badge>
             </Title>
             <Paragraph>
-                The rundown of this trading strategy is simple: see a Youtube video pop, sell what you&apos;re holding
-                now, buy the futures of the asset the Youtube video covers. I used some thread pools and was able
-                to get from Youtube video detection to longing 20x with futures in around 3 seconds, which was plenty
-                enough.
+                The rundown of this trading strategy is simple: see a Youtube video get published,
+                sell current holdings, and buy the futures of the asset the Youtube video covers.
+                I used some thread pools and was able to get from Youtube video detection to longing
+                20x with futures in around 3 seconds, which was plenty enough.
+                Also this program handles finishing the trade by repurchasing previously sold holdings
+                in proportional amounts given the strategy made or lost money.
             </Paragraph>
             <List my={4}>
                 <ListItem>
@@ -42,9 +44,11 @@ const Work = () => (
             <Header>
                 The results
             </Header>
-            Unfortunately never got the chance to completely play around with this strategy. Once I had finished it,
-            the crypto bear-market was setting in and a new video may not break the 1% gain I needed to cash out.
-
+            <Paragraph>
+                Unfortunately, I never got the chance fully take advantage of this strategy.
+                Once I had finished it, the crypto bear market had set in and retail interest in crypto waned.
+                And as a result, the impact of Youtube videos on asset prices became negligible.
+            </Paragraph>
 
 
         </Container>
