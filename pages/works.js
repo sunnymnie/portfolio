@@ -36,10 +36,10 @@ const Works = () => (
                 </Section>
                 <Section>
                     <WorkGridItem
-                        id="ganache-faucet"
-                        thumbnail="faucet-thumb.png"
-                        title="Ganache Faucet">
-                        A fun project made using Solidity and React.js, allowing the user to donate and receive test eth on Ganache
+                        id="ubc-dataset-query-app"
+                        thumbnail="ubc-thumb1.png"
+                        title="UBC Dataset Query Application">
+                        A full-stack application allowing users to query information about UBC courses
                     </WorkGridItem>
                 </Section>
                 <Section>
@@ -62,6 +62,14 @@ const Works = () => (
             </Section>
 
             <SimpleGrid columns={[1, 1, 2]} gap={6}>
+                <Section>
+                    <WorkGridItem
+                        id="ganache-faucet"
+                        thumbnail="faucet-thumb.png"
+                        title="Ganache Faucet">
+                        A fun project made using Solidity and React.js, allowing the user to donate and receive test eth on Ganache
+                    </WorkGridItem>
+                </Section>
                 <Section>
                     <WorkGridItem
                         id="ytprinter"
