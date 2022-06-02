@@ -76,6 +76,15 @@ const Works = () => (
                         thumbnail="crypto-thumb.png"
                         title="Crypto Printer"
                     >
+                        Mean-reversion strategy between pairs of assets using the z-score as the trading signal
+                    </WorkGridItem>
+                </Section>
+                <Section>
+                    <WorkGridItem
+                        id="bitcoin-printer"
+                        thumbnail="bitcoin-1.png"
+                        title="Bitcoin Printer"
+                    >
                         Exploratory project playing with the frontier of algorithmic trading and ML
                     </WorkGridItem>
                 </Section>
