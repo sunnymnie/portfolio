@@ -20,7 +20,7 @@ const Works = () => (
                     <WorkGridItem
                         id="bookstore-eth"
                         title="Bookstore-Eth"
-                        thumbnail="placeholder.png">
+                        thumbnail="bookstore-thumb.png">
                         A prototype book-summary marketplace deployed on the Ropsten testnet. Made with React.js, Next.js, and TailwindCSS
                     </WorkGridItem>
                 </Section>

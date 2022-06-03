@@ -12,7 +12,7 @@ import Layout from '@components/layouts/article'
 const Work = () => (
     <Layout title="Bookstore-Eth">
         <Container>
-            <WorkImage src="placeholder.png" alt="bookstore eth thumbnail" />
+            <WorkImage src="bookstore-thumb.png" alt="bookstore eth thumbnail" />
             <Title>
                 Bookstore-Eth <Badge>2022-</Badge>
             </Title>
@@ -42,9 +42,26 @@ const Work = () => (
                 </ListItem>
             </List>
 
+            <Header>
+                About
+            </Header>
             <Paragraph>
-                Images will be released once project is finished to a sufficient extent.
+                When the user is not connected to Metamask, a prompt will either guide the user to install Metamask or to connect.
             </Paragraph>
+            <WorkImage src="bookstore-connect.png" alt="bookstore eth connect" />
+            <Paragraph>
+                If the user is not connected to the ethereum main network, another warning will appear.
+            </Paragraph>
+            <WorkImage src="bookstore-wrong.png" alt="bookstore eth connected to wrong network" />
+            <Paragraph>
+                After connecting to the right network, the user can buy book summaries. (functionality coming later).
+            </Paragraph>
+            <WorkImage src="bookstore-marketplace.png" alt="bookstore eth connected to wrong network" />
+            <Paragraph>
+                The user can also click on a summary and get a page for more information about the summary.
+            </Paragraph>
+            <WorkImage src="bookstore-book.png" alt="bookstore eth template book" />
+
         </Container>
     </Layout>
 )
