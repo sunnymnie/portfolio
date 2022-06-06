@@ -1,6 +1,6 @@
 # Sunny Nie's Portfolio
 
-[portfolio-sunnymnie.vercel.app/](https://portfolio-sunnymnie.vercel.app/works)
+[portfolio-sunnymnie.vercel.app/](https://portfolio-sunnymnie.vercel.app)
 
 ## Stack
 - React and Next.js
