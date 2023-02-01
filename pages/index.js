@@ -57,10 +57,8 @@ const Home = () => {
       <Section heading="About">
         <div>
           I&apos;m a second-year CS student at UBC interested in software engineering and data science.
-          I have built trading algorithms in Python with the help of Pandas, NumPy, Matplotlib, and Scikit-Learn
-          for data analysis and backtesting.
-          Recently I created some React and Next.js applications
-          and have dabbled a bit in Solidity and machine learning.
+          Recently, I have worked with React and Ruby on Rails professionally while using python on my numerous trading algorithm pursuits. 
+          I have also dabbled a bit in Solidity and machine learning.
         </div>
       </Section>
       <Box align="center" my={4}>
@@ -70,8 +68,8 @@ const Home = () => {
           </Button>
         </NextLink>
       </Box>
-      <Section heading="Interests">
-        <div>front-end development, data-science, investing, .io games, eth</div>
+      <Section heading="Other interests">
+        <div>habit building, thesis-driven trading, eth ecosystem</div>
       </Section>
       <Section heading="Add me">
         <List>

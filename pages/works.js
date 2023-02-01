@@ -26,14 +26,14 @@ const Works = () => {
                             A pomodoro timer made with React.js, Next.js, and Chakra UI
                         </WorkGridItem>
                     </Section>
-                    <Section>
+                    {/* <Section>
                         <WorkGridItem
                             id="bookstore-eth"
                             title="Bookstore-Eth"
                             thumbnail="bookstore-thumb.png">
                             A prototype book-summary marketplace deployed on the Ropsten testnet. Made with React.js, Next.js, and TailwindCSS
                         </WorkGridItem>
-                    </Section>
+                    </Section> */}
 
                     <Section>
                         <WorkGridItem
