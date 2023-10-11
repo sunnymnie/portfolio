@@ -9,8 +9,10 @@ const Works = () => {
     <Layout title="Works">
       <Container>
         <Intro>
-          Here lies some of the work I have done. Take a gander and try them out
-          - I have included pictures for your viewing pleasure
+          {/* Here lies some of the work I have done. Take a gander and try them out
+          - I have included pictures for your viewing pleasure */}
+          Here are some of the works I have created. Feel free to take a look,
+          I&apos;ve included pictures for your viewing pleasure
         </Intro>
         <Heading as="h3" fontSize={20} mb={4}>
           Highlighted Works
