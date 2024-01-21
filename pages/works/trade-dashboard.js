@@ -55,8 +55,8 @@ const Work = () => (
       <Header>Other views</Header>
       <Paragraph>
         The application supports a resizeable side-view for interacting with
-        individual trades. The sidebar view is 'sticky' and persists when
-        switching between the timeline view and kanban view, etc. In the
+        individual trades. The sidebar view is &apos;sticky&apos; and persists
+        when switching between the timeline view and kanban view, etc. In the
         implementation, the trade view supports markdown and all basic CRUD
         features
       </Paragraph>
@@ -66,9 +66,9 @@ const Work = () => (
       />
       <Paragraph>
         There is also a tweet analysis section which allows me to create
-        'event-ranges' within and event, and to review tweets within a specific
-        time range and which also include specific key-words in order to build a
-        profile for different Twitter users.
+        &apos;event-ranges&apos; within and event, and to review tweets within a
+        specific time range and which also include specific key-words in order
+        to build a profile for different Twitter users.
       </Paragraph>
       <WorkImage
         src="trade-dashboard-analysis.png"

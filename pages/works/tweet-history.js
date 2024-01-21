@@ -15,9 +15,9 @@ const Work = () => (
         specific purpose of keeping a history of my Twitter feed. It is made up
         of two parts, a Tweet downloader part that automatically downloads the
         tweets I see on my timeline as I am browsing, and the full-stack
-        application that I can use to reference historic 'snapshots' of my
-        Twitter feed. The Tweet downloader part uses Selenium Webdriver and
-        SQLAlchemy to interface with the sqlite database, and the full-stack
+        application that I can use to reference historic &apos;snapshots&apos;
+        of my Twitter feed. The Tweet downloader part uses Selenium Webdriver
+        and SQLAlchemy to interface with the sqlite database, and the full-stack
         application has a Go backend with Solid.js frontend.
       </Paragraph>
       <List my={4}>
@@ -49,26 +49,27 @@ const Work = () => (
         alt="Tweet History dashboard"
       />
       <Paragraph>
-        In the dashboard view, I can access snapshots of tweets I've saved. If I
-        browsed Twitter for a day and have saved tweets seen that day, that day
-        appears green with the total number of saved tweets and clicking that
-        date opens up the tweets view. Otherwise, they will be white. I can
+        In the dashboard view, I can access snapshots of tweets I&apos;ve saved.
+        If I browsed Twitter for a day and have saved tweets seen that day, that
+        day appears green with the total number of saved tweets and clicking
+        that date opens up the tweets view. Otherwise, they will be white. I can
         access the previous and next month through both the URL and the buttons
         on the dashboard.
       </Paragraph>
       <Header>Tweets view</Header>
       <WorkImage src="tweet-history-sample.png" alt="Tweet History sample" />
       <Paragraph>
-        For a date with tweets, I can scroll through all the tweets I've saved
-        that day with a very lightweight and compact UI. The UI also saves the
-        replies and quote tweets I've seen as well as providing a URL to the
-        original Tweet.
+        For a date with tweets, I can scroll through all the tweets I&apos;ve
+        saved that day with a very lightweight and compact UI. The UI also saves
+        the replies and quote tweets I&apos;ve seen as well as providing a URL
+        to the original Tweet.
       </Paragraph>
       <WorkImage src="tweet-history-fancy.png" alt="Tweet History fancy" />
       <Paragraph>
-        I can also access the previous and next day's tweets with the dashboard
-        buttons or via the URL (by typing a different date). Additionally, I
-        click on the current date to go back to the monthly dashboard.
+        I can also access the previous and next day&apos;s tweets with the
+        dashboard buttons or via the URL (by typing a different date).
+        Additionally, I click on the current date to go back to the monthly
+        dashboard.
       </Paragraph>
     </Container>
   </Layout>
