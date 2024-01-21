@@ -71,9 +71,9 @@ const Home = () => {
           got some professional full-stack programming experience with Ruby on
           Rails and React, and have worked on numerous Python-based fullstack
           applications with FastAPI as the backend, as well as web automation
-          with Selenium WebDriver (undetected-chromedriver) and Playwright. In
-          the past, I have done a lot of ML and data-science in my
-          side-projects.
+          with Selenium WebDriver and similar including Playwright,
+          undetected-chromedriver, and Seleniumbase. In the past, I have done a
+          lot of ML and data-science in my side-projects.
           {/* I&apos;m a second-year CS student at UBC interested in software engineering and data science.
           Recently, I have worked with React and Ruby on Rails professionally while using python on my numerous trading algorithm pursuits. 
           I have also dabbled a bit in Solidity and machine learning. */}
@@ -88,8 +88,14 @@ const Home = () => {
       </Box>
       <Section heading="Other interests">
         <div>
-          habit building, thesis-driven trading, fishing (can&apos;t fish
-          though)
+          Cyclical human behaviour -- from the typical self-help loop of getting
+          motivated, building good habits, getting stuff done and really turning
+          things around, to then being complacent and start deteriorating to
+          only start back at the square one. As well as in investing, watching
+          the positive feed-back loops of excitement and novelty of new trends
+          take place, to then watching the climax when the bubble bursts and the
+          cyclical negative feed-back loop that takes things back down. And I
+          also like fishing -- though only salt water.
         </div>
       </Section>
       <Section heading="Socials">

@@ -21,11 +21,20 @@ const Works = () => {
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
             <WorkGridItem
-              id="trade-timeline"
-              title="Trade Timeline"
-              thumbnail="trade-timeline-thumb.png"
+              id="tweet-history"
+              title="Tweet History"
+              thumbnail="tweet-history-thumb.png"
             >
-              A trading dashboard made with Ruby on Rails, React, and Redux.
+              A two-part Go and Solid.js app with Selenium WebDriver section
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem
+              id="trade-dashboard"
+              title="Trade Dashboard"
+              thumbnail="trade-dashboard-thumb.png"
+            >
+              A trade organization app built with React, Next.js, and FastAPI
             </WorkGridItem>
           </Section>
           <Section>
@@ -37,15 +46,6 @@ const Works = () => {
               A pomodoro timer made with React.js, Next.js, and Chakra UI
             </WorkGridItem>
           </Section>
-          {/* <Section>
-                        <WorkGridItem
-                            id="bookstore-eth"
-                            title="Bookstore-Eth"
-                            thumbnail="bookstore-thumb.png">
-                            A prototype book-summary marketplace deployed on the Ropsten testnet. Made with React.js, Next.js, and TailwindCSS
-                        </WorkGridItem>
-                    </Section> */}
-
           <Section>
             <WorkGridItem
               id="btprinter"
@@ -87,6 +87,15 @@ const Works = () => {
         </Section>
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
+          <Section>
+            <WorkGridItem
+              id="trade-timeline"
+              title="Trade Timeline"
+              thumbnail="trade-timeline-thumb.png"
+            >
+              A trading dashboard made with Ruby on Rails, React, and Redux
+            </WorkGridItem>
+          </Section>
           <Section>
             <WorkGridItem
               id="ganache-faucet"
